@@ -21,6 +21,31 @@ body{
   top:0px;
 }
 
-h3{
+img {
+  float: right;
+  padding-left: 20px;
+}
+
+.bodybox {
+  font-family: sans-serif;
+  margin: 100px;
+  width: 100vh - 100px;
+  background-color: rgba(255,255,255,0.7);
+  padding: 30px;
+  overflow: auto;
+}
+
+.bodybox h2 {
   text-align: center;
+}
+
+.bodybox p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.stamp {
+  position: absolute;
+  top:5px;
+  right:5px;
 }
